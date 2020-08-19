@@ -1,0 +1,18 @@
+@import url("./__date/cards__date.css");
+@import url("./__main/cards__main.css");
+
+.cards__texts{
+  padding: 20px 24px 0 24px
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .cards__texts{
+    padding: 16px 16px 0 16px
+  }
+}
+
+@media (max-width: 767px) {
+  .cards__texts{
+    padding: 16px 16px 0 16px
+  }
+}

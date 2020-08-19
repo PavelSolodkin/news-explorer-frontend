@@ -1,0 +1,19 @@
+@import url("./__news/_type/news_type_dark.css");
+@import url("./__saves/saves.css");
+
+.header_type_save{
+  min-height: 374px;
+  margin: 0 auto 0;
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .header_type_save{
+     min-height: 270px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header_type_save{
+     min-height: 302px;
+  }
+}

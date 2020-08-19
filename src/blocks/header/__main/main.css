@@ -1,0 +1,32 @@
+@import url("./__world/world.css");
+@import url("./__search/search.css");
+
+.main{
+  max-width: 608px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 416px;
+  padding-right: 416px;
+  margin: auto;
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .main{
+    padding-top: calc((100vw - 768px)/671*42 + 38px);
+    padding-bottom: calc((100vw - 768px)/671*42 + 48px);
+    padding-left: calc((100vw - 768px)/671*64 + 40px);
+    padding-right: calc((100vw - 768px)/671*64 + 40px);
+    width: calc((100vw - 768px)/671*288 + 528px);
+  }
+}
+
+@media (max-width: 767px) {
+  .main{
+    padding-top: calc((100vw - 768px)/447*12 + 30px);
+    padding-bottom: calc((100vw - 768px)/447*10 + 32px);
+    padding-left: calc((100vw - 320px)/447*24 + 16px);
+    padding-right: calc((100vw - 320px)/447*24 + 16px);
+  }
+}

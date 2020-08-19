@@ -1,0 +1,8 @@
+.author__photo{
+  padding-top: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  border-radius: 50%;
+}
+

@@ -1,0 +1,5 @@
+@media (min-width : 768px) and (max-width : 2560px) {
+.news__item_type_invisible_visible{
+    display: flex;
+  }
+}

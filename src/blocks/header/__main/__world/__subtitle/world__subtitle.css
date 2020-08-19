@@ -1,0 +1,26 @@
+.world__subtitle{
+  max-width: 545px;
+  min-height: 48px;
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .world__subtitle{
+    max-width: 452px;
+    min-height: 48px;
+    font-size: calc((100vw - 768px)/671*2 + 16px);
+  }
+}
+
+@media (max-width: 767px) {
+  .world__subtitle{
+    max-width: 288px;
+    min-height: 72px;
+    font-size: 16px;
+  }
+}

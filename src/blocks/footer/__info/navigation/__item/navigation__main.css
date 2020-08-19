@@ -1,0 +1,24 @@
+@import url("./__link/navigation__link.css");
+
+.navigation__main{
+  width: 112px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .navigation__main{
+    width: 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navigation__main{
+    margin:  0 0 22px 0;
+    text-align: start;
+  }
+}

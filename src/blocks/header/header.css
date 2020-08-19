@@ -1,0 +1,28 @@
+@import url("./__news/news.css");
+@import url("./__main/main.css");
+
+.header {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 576px;
+  margin: 0 auto 0;
+  display: flex;
+  flex-direction: column;
+  background: url(/src/images/optimized/Header.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .header{
+     min-height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header{
+     min-height: 536px;
+  }
+}

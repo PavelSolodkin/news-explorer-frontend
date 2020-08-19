@@ -1,0 +1,29 @@
+.world__title{
+  max-width: 608px;
+  min-height: 128px;
+  margin: 0 0 32px 0;
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 64px;
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .world__title{
+    max-width: 385px;
+    min-height: 80px;
+    margin: 0 0 16px 0;
+    font-size: calc((100vw - 768px)/671*24 + 36px);
+    line-height: calc((100vw - 768px)/671*24 + 40px);
+  }
+}
+
+@media (max-width: 767px) {
+  .world__title{
+    max-width: 285px;
+    min-height: 80px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
