@@ -8,7 +8,7 @@
   margin: 0 auto 0;
   display: flex;
   flex-direction: column;
-  background: url(/src/images/optimized/Header.jpg);
+  background-image: url(../../images/Header.jpg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;

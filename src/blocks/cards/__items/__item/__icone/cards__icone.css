@@ -6,18 +6,18 @@
   position: absolute;
   top: 24px;
   right: 24px;
-  background-image: url(/src/images/optimized/Normal.png);
+  background-image: url(../../../../../images/Normal.png);
   background-position: center;
   cursor: pointer;
   outline: none;
 }
 
 .cards__icone:hover{
-  background-image: url(/src/images/optimized/Hover.png);
+  background-image: url(../../../../../images/Hover.png);
 }
 
 .cards__icone:focus{
-  background-image: url(/src/images/optimized/Marked.png);
+  background-image: url(../../../../../images/Marked.png);
 }
 
 

@@ -6,14 +6,14 @@
   position: absolute;
   top: 24px;
   right: 24px;
-  background-image: url(/src/images/optimized/WhiteTrash.png);
+  background-image: url(../../../../../../images/WhiteTrash.png);
   background-position: center;
   cursor: pointer;
   outline: none;
 }
 
 .cards__icone_type_trash:hover{
-  background-image: url(/src/images/optimized/BlackTrash.png);
+  background-image: url(../../../../../../images/BlackTrash.png);
 }
 
 @media (min-width : 768px) and (max-width : 1439px) {

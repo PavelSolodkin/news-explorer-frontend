@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="author" content="Павел Солодкин">
   <title>News Explorer</title>
-  <link rel="shortcut icon" href="/src/images/Favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="<%=require('../images/Favicon.png').default%>" type="image/x-icon">
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css%>">
 </head>
 
@@ -25,9 +25,9 @@
       </ul>
       <button class="button button_type_author" id="authorization">Авторизоваться</button>
       <button class="button button_type_greta_light" id="greta">Грета<img class="button__icon"
-          src="/src/images/optimized/WhiteLogout.png" alt="Кнопка выхода из профиля"></button>
+          src="<%=require('../images/WhiteLogout.png').default%>" alt="Кнопка выхода из профиля"></button>
       <button class="button button_type_menu" id="openMenu"><img class="button__icon_type_menu"
-          src="<%=require('./images/optimized/WhiteMenu.png').default%>" alt="Меню"></button>
+          src="<%=require('../images/WhiteMenu.png').default%>" alt="Меню"></button>
 
     </div>
     <div class="main">
@@ -46,7 +46,7 @@
     <h2 class="cards__results">Результаты поиска</h2>
     <div class="cards-items">
       <div class="cards-item">
-        <img src="<%=require('./images/optimized/Image1.png').default%>" class="cards__image" alt="Image1" />
+        <img src="<%=require('../images/Image1.png').default%>" class="cards__image" alt="Image1" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -60,7 +60,7 @@
         <button class="cards__icone"></button>
       </div>
       <div class="cards-item">
-        <img src="/src/images/optimized/Image2.png" class="cards__image" alt="Image2" />
+        <img src="<%=require('../images/Image2.png').default%>" class="cards__image" alt="Image2" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -74,7 +74,7 @@
         <button class="cards__icone"></button>
       </div>
       <div class="cards-item">
-        <img src="/src/images/optimized/Image3.png" class="cards__image" alt="Image3" />
+        <img src="<%=require('../images/Image3.png').default%>" class="cards__image" alt="Image3" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -87,7 +87,7 @@
         <button class="cards__icone"></button>
       </div>
       <div class="cards-item">
-        <img src="/src/images/optimized/Image1.png" class="cards__image" alt="Image1" />
+        <img src="<%=require('../images/Image1.png').default%>" class="cards__image" alt="Image1" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -101,7 +101,7 @@
         <button class="cards__icone"></button>
       </div>
       <div class="cards-item">
-        <img src="/src/images/optimized/Image2.png" class="cards__image" alt="Image2" />
+        <img src="<%=require('../images/Image2.png').default%>" class="cards__image" alt="Image2" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -114,7 +114,7 @@
         <button class="cards__icone"></button>
       </div>
       <div class="cards-item">
-        <img src="/src/images/optimized/Image3.png" class="cards__image" alt="Image3" />
+        <img src="<%=require('../images/Image3.png').default%>" class="cards__image" alt="Image3" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -130,7 +130,7 @@
     <button class="button button_type_more">Показать ещё</button>
   </div>
   <div class="nothing">
-    <img src="/src/images/optimized/NotFound.png" class="nothing__image" alt="NotFound" />
+    <img src="<%=require('../images/NotFound.png').default%>" class="nothing__image" alt="NotFound" />
     <p class="nothing__title">Ничего не найдено</p>
     <p class="nothing__subtitle">К сожалению по вашему запросу ничего не найдено.</p>
   </div>
@@ -141,7 +141,7 @@
 
   <div class="popup" id="popup-signin">
     <div class="popup__content">
-      <img class="popup__close" id="close" src="/src/images/optimized/Close.png" alt="Close" />
+      <img class="popup__close" id="close" src="<%=require('../images/Close.png').default%>" alt="Close" />
       <h3 class="popup__title">Вход</h3>
       <form class="popup__form">
         <p class="popup__text">Email</p>
@@ -159,7 +159,7 @@
 
   <div class="popup2" id="popup-signup">
     <div class="popup__content2">
-      <img class="popup__close2" id="close2" src="/src/images/optimized/Close.png" alt="Close" />
+      <img class="popup__close2" id="close2" src="<%=require('../images/Close.png').default%>" alt="Close" />
       <h3 class="popup__title2">Регистрация</h3>
       <form class="popup__form2">
         <p class="popup__text2">Email</p>
@@ -177,14 +177,14 @@
 
   <div class="popup3" id="popup-success">
     <div class="popup__content3">
-      <img class="popup__close3" id="close3" src="/src/images/optimized/Close.png" alt="Close" />
+      <img class="popup__close3" id="close3" src="<%=require('../images/Close.png').default%>" alt="Close" />
       <h3 class="popup__title3">Пользователь успешно зарегистрирован</h3>
       <a class="popup__link3" id="changeButton">Выполнить вход</a>
     </div>
   </div>
   <div class="author">
     <div class="author__about">
-      <div class="author__photo" style="background-image: url(/src/images/optimized/Avatar.png);"></div>
+      <div class="author__photo"></div>
       <div class="author__info">
         <h2 class="author__title">Об авторе</h2>
         <p class="author__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы
@@ -200,7 +200,7 @@
     <div class="menu__content">
       <div class="menu__news">
         <p class="menu__copyright">NewsExplorer</p>
-        <img class="menu__close" id="close4" src="/src/images/optimized/Close.png" alt="Close" />
+        <img class="menu__close" id="close4" src="<%=require('../images/Close.png').default%>" alt="Close" />
       </div>
       <ul class="menu__items">
         <li class="menu__item">
@@ -227,11 +227,11 @@
       <ul class="social">
         <li class="social__item">
           <a class="social__link" href="https://github.com/PavelSolodkin" target="_blank"><img
-              src="/src/images/optimized/Github.svg" alt="Github"></a>
+              src="<%=require('../images/Github.svg').default%>" alt="Github"></a>
         </li>
         <li class="social__item">
           <a class="social__link" href="https://vk.com/id137592909" target="_blank"><img
-              src="/src/images/optimized/Facebook.svg" alt="Facebook"></a>
+              src="<%=require('../images/Facebook.svg').default%>" alt="Facebook"></a>
         </li>
       </ul>
     </div>

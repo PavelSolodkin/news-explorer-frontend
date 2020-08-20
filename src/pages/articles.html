@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="author" content="Павел Солодкин">
   <title>News Explorer</title>
-  <link rel="shortcut icon" href="/src/images/Favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="<%=require('../images/Favicon.png').default%>" type="image/x-icon">
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css%>">
 </head>
 
@@ -22,9 +22,9 @@
         <li class="news__item news__item_type_under">Сохраненные статьи</li>
       </ul>
       <button class="button button_type_greta_dark">Грета<img class="button__icon"
-          src="/src/images/optimized/BlackLogout.png" alt="Кнопка выхода из профиля"></button>
+          src="<%=require('../images/BlackLogout.png').default%>" alt="Кнопка выхода из профиля"></button>
       <button class="button button_type_menu"><img class="button__icon_type_menu"
-          src="/src/images/optimized/DarkMenu.png" alt="Меню"></button>
+          src="<%=require('../images/DarkMenu.png').default%>" alt="Меню"></button>
     </div>
     <div class="saves">
       <p class="saves__articles">Сохранённые статьи</p>
@@ -36,7 +36,7 @@
   <div class="cards cards_type_margin">
     <div class="cards-items">
       <div class="cards-item">
-        <img src="/src/images/optimized/Image4.png" class="cards__image" alt="Image4" />
+        <img src="<%=require('../images/Image4.png').default%>" class="cards__image" alt="Image4" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -50,7 +50,7 @@
         <button class="cards__icone_type_trash"></button>
       </div>
       <div class="cards-item">
-        <img src="/src/images/optimized/Image5.png" class="cards__image" alt="Image5" />
+        <img src="<%=require('../images/Image5.png').default%>" class="cards__image" alt="Image5" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -65,7 +65,7 @@
         <button class="cards__icone_type_trash"></button>
       </div>
       <div class="cards-item">
-        <img src="/src/images/optimized/Image6.png" class="cards__image" alt="Image6" />
+        <img src="<%=require('../images/Image6.png').default%>" class="cards__image" alt="Image6" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -79,7 +79,7 @@
         <button class="cards__icone_type_trash"></button>
       </div>
       <div class="cards-item">
-        <img src="/src/images/optimized/Image4.png" class="cards__image" alt="Image4" />
+        <img src="<%=require('../images/Image4.png').default%>" class="cards__image" alt="Image4" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -93,7 +93,7 @@
         <button class="cards__icone_type_trash"></button>
       </div>
       <div class="cards-item">
-        <img src="/src/images/optimized/Image5.png" class="cards__image" alt="Image5" />
+        <img src="<%=require('../images/Image5.png').default%>" class="cards__image" alt="Image5" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -113,7 +113,7 @@
     <div class="menu__content">
       <div class="menu__news">
         <p class="menu__copyright">NewsExplorer</p>
-        <img class="menu__close" src="/src/images/optimized/Close.png" alt="Close" />
+        <img class="menu__close" src="<%=require('../images/Close.png').default%>" alt="Close" />
       </div>
       <ul class="menu__items">
         <li class="menu__item">
@@ -141,11 +141,11 @@
       <ul class="social">
         <li class="social__item">
           <a class="social__link" href="https://github.com/PavelSolodkin" target="_blank"><img
-              src="/src/images/optimized/Github.svg" alt="Github"></a>
+              src="<%=require('../images/Github.svg').default%>" alt="Github"></a>
         </li>
         <li class="social__item">
           <a class="social__link" href="https://vk.com/id137592909" target="_blank"><img
-              src="/src/images/optimized/Facebook.svg" alt="Facebook"></a>
+              src="<%=require('../images/Facebook.svg').default%>" alt="Facebook"></a>
         </li>
       </ul>
     </div>
