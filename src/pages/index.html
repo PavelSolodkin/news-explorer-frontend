@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="author" content="Павел Солодкин">
   <title>News Explorer</title>
-  <link rel="shortcut icon" href="<%=('/src/images/Favicon.png')%>" type="image/x-icon">
+  <link rel="shortcut icon" href="/src/images/Favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css%>">
 </head>
 
@@ -27,7 +27,8 @@
       <button class="button button_type_greta_light" id="greta">Грета<img class="button__icon"
           src="/src/images/optimized/WhiteLogout.png" alt="Кнопка выхода из профиля"></button>
       <button class="button button_type_menu" id="openMenu"><img class="button__icon_type_menu"
-          src="/src/images/optimized/WhiteMenu.png" alt="Меню"></button>
+          src="<%=require('./images/optimized/WhiteMenu.png').default%>" alt="Меню"></button>
+
     </div>
     <div class="main">
       <div class="world">
@@ -45,7 +46,7 @@
     <h2 class="cards__results">Результаты поиска</h2>
     <div class="cards-items">
       <div class="cards-item">
-        <img src="/src/images/optimized/Image1.png" class="cards__image" alt="Image1" />
+        <img src="<%=require('./images/optimized/Image1.png').default%>" class="cards__image" alt="Image1" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
