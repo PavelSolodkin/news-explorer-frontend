@@ -1,8 +1,0 @@
-@import url("./__input/search__input.css");
-@import url("../../../button/_type/button_type_search.css");
-
-.search{
-  position: relative;
-  width: 100%;
-}
-
