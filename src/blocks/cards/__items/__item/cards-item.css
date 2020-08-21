@@ -8,6 +8,7 @@
 
 .cards-item{
   position: relative;
+  width: 100%;
   min-height: 576px;
   border-radius: 16px;
   background: #FFF;
@@ -21,6 +22,7 @@
 
 @media (max-width: 767px) {
   .cards-item {
-    min-height: 446px;
+    min-height: 430px;
+    margin: 0 auto 0;
   }
 }

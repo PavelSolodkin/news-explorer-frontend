@@ -25,7 +25,7 @@
       </ul>
       <button class="button button_type_author" id="authorization">Авторизоваться</button>
       <button class="button button_type_greta_light" id="greta">Грета<img class="button__icon"
-          src="<%=require('../images/WhiteLogout.png').default%>" alt="Кнопка выхода из профиля"></button>
+          src="<%=require('../images/WhiteLogout.png').default%>" alt="Выход"></button>
       <button class="button button_type_menu" id="openMenu"><img class="button__icon_type_menu"
           src="<%=require('../images/WhiteMenu.png').default%>" alt="Меню"></button>
 
@@ -46,7 +46,7 @@
     <h2 class="cards__results">Результаты поиска</h2>
     <div class="cards-items">
       <div class="cards-item">
-        <img src="<%=require('../images/Image1.png').default%>" class="cards__image" alt="Image1" />
+        <img src="<%=require('../images/Image1.png').default%>" class="cards__image" alt="Картинка статьи" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -60,7 +60,7 @@
         <button class="cards__icone"></button>
       </div>
       <div class="cards-item">
-        <img src="<%=require('../images/Image2.png').default%>" class="cards__image" alt="Image2" />
+        <img src="<%=require('../images/Image2.png').default%>" class="cards__image" alt="Картинка статьи" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -74,7 +74,7 @@
         <button class="cards__icone"></button>
       </div>
       <div class="cards-item">
-        <img src="<%=require('../images/Image3.png').default%>" class="cards__image" alt="Image3" />
+        <img src="<%=require('../images/Image3.png').default%>" class="cards__image" alt="Картинка статьи" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -87,7 +87,7 @@
         <button class="cards__icone"></button>
       </div>
       <div class="cards-item">
-        <img src="<%=require('../images/Image1.png').default%>" class="cards__image" alt="Image1" />
+        <img src="<%=require('../images/Image1.png').default%>" class="cards__image" alt="Картинка статьи" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -101,7 +101,7 @@
         <button class="cards__icone"></button>
       </div>
       <div class="cards-item">
-        <img src="<%=require('../images/Image2.png').default%>" class="cards__image" alt="Image2" />
+        <img src="<%=require('../images/Image2.png').default%>" class="cards__image" alt="Картинка статьи" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -114,7 +114,7 @@
         <button class="cards__icone"></button>
       </div>
       <div class="cards-item">
-        <img src="<%=require('../images/Image3.png').default%>" class="cards__image" alt="Image3" />
+        <img src="<%=require('../images/Image3.png').default%>" class="cards__image" alt="Картинка статьи" />
         <div class="cards__texts">
           <p class="cards__date">2 августа, 2019</p>
           <div class="cards__main">
@@ -130,7 +130,7 @@
     <button class="button button_type_more">Показать ещё</button>
   </div>
   <div class="nothing">
-    <img src="<%=require('../images/NotFound.png').default%>" class="nothing__image" alt="NotFound" />
+    <img src="<%=require('../images/NotFound.png').default%>" class="nothing__image" alt="Ничего нет" />
     <p class="nothing__title">Ничего не найдено</p>
     <p class="nothing__subtitle">К сожалению по вашему запросу ничего не найдено.</p>
   </div>
@@ -141,14 +141,14 @@
 
   <div class="popup" id="popup-signin">
     <div class="popup__content">
-      <img class="popup__close" id="close" src="<%=require('../images/Close.png').default%>" alt="Close" />
+      <img class="popup__close" id="close" src="<%=require('../images/Close.png').default%>" alt="Закрыть" />
       <h3 class="popup__title">Вход</h3>
       <form class="popup__form">
         <p class="popup__text">Email</p>
-        <input class="popup__input" placeholder="Введите почту" />
+        <input class="popup__input" placeholder="Введите почту" type="email" required />
         <span class="popup__error">Неправильный формат email</span>
         <p class="popup__text">Пароль</p>
-        <input class="popup__input" placeholder="Введите пароль" />
+        <input class="popup__input" placeholder="Введите пароль" type="password" required />
         <span class="popup__error">Неправильный формат пароля</span>
         <button class="button button_type_login" disabled>Войти</button>
         <p class="popup__or">или <a class="popup__link" id="registration">Зарегистрироваться</a>
@@ -159,15 +159,15 @@
 
   <div class="popup2" id="popup-signup">
     <div class="popup__content2">
-      <img class="popup__close2" id="close2" src="<%=require('../images/Close.png').default%>" alt="Close" />
+      <img class="popup__close2" id="close2" src="<%=require('../images/Close.png').default%>" alt="Закрыть" />
       <h3 class="popup__title2">Регистрация</h3>
       <form class="popup__form2">
         <p class="popup__text2">Email</p>
-        <input class="popup__input2" placeholder="Введите почту" />
+        <input class="popup__input2" placeholder="Введите почту" type="email" required />
         <p class="popup__text2">Пароль</p>
-        <input class="popup__input2" placeholder="Введите пароль" />
+        <input class="popup__input2" placeholder="Введите пароль" type="password" required />
         <p class="popup__text2">Имя</p>
-        <input class="popup__input2" placeholder="Введите почту" />
+        <input class="popup__input2" placeholder="Введите своё имя" type="text" required />
         <span class="popup__error2">Такой пользователь уже есть</span>
         <button class="button button_type_reg">Зарегистрироваться</button>
         <p class="popup__or2">или <a class="popup__link2" id="success">Войти</a></p>
@@ -177,7 +177,7 @@
 
   <div class="popup3" id="popup-success">
     <div class="popup__content3">
-      <img class="popup__close3" id="close3" src="<%=require('../images/Close.png').default%>" alt="Close" />
+      <img class="popup__close3" id="close3" src="<%=require('../images/Close.png').default%>" alt="Закрыть" />
       <h3 class="popup__title3">Пользователь успешно зарегистрирован</h3>
       <a class="popup__link3" id="changeButton">Выполнить вход</a>
     </div>
@@ -200,7 +200,7 @@
     <div class="menu__content">
       <div class="menu__news">
         <p class="menu__copyright">NewsExplorer</p>
-        <img class="menu__close" id="close4" src="<%=require('../images/Close.png').default%>" alt="Close" />
+        <img class="menu__close" id="close4" src="<%=require('../images/Close.png').default%>" alt="Закрыть" />
       </div>
       <ul class="menu__items">
         <li class="menu__item">

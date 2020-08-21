@@ -1,0 +1,23 @@
+@import url("./__title/world__title.css");
+@import url("./__subtitle/world__subtitle.css");
+
+.world{
+  min-height: 208px;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .world{
+     min-height: 144px;
+     margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .world{
+     min-height: 138px;
+     margin-bottom: 122px;
+  }
+}

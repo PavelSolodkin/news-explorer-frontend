@@ -1,0 +1,20 @@
+@import url("./__link/menu__link.css");
+
+@media (max-width: 767px) {
+  .menu__item{
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.menu__item:first-child{
+  margin: 0 0 32px 0;
+}

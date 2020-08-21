@@ -1,0 +1,9 @@
+.cards_type_margin{
+  margin: 62px 0 0 0;
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .cards_type_margin{
+    margin: 32px 0 0 0;
+  }
+}

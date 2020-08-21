@@ -1,0 +1,30 @@
+.cards__icone{
+  border-radius: 8px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background-image: url(../../../../../images/Normal.png);
+  background-position: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.cards__icone:hover{
+  background-image: url(../../../../../images/Hover.png);
+}
+
+.cards__icone:focus{
+  background-image: url(../../../../../images/Marked.png);
+}
+
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .cards__icone{
+    top: calc((100vw - 768px)/671*16 + 8px);
+    right: calc((100vw - 768px)/671*16 + 8px);
+  }
+}
+

@@ -5,19 +5,21 @@
   padding: 0;
   border: 0;
   border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.popup__input::placeholder {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #000;
-  box-sizing: border-box;
-  outline: none;
+  opacity: 0.2;
 }
 
 @media (max-width: 767px) {
   .popup__input{
     width: 288px;
-
   }
 }

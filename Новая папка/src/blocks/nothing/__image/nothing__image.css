@@ -1,0 +1,17 @@
+.nothing__image{
+width: 96px;
+height: 96px;
+margin: 80px auto 24px;
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .nothing__image{
+    margin: 40px auto 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nothing__image{
+    margin: 20px auto 6px;
+  }
+}

@@ -1,0 +1,26 @@
+@import url("./__icone/cards__icone.css");
+@import url("./__icone/_type/cards__icone_type_trash.css");
+@import url("./__login/cards__login.css");
+@import url("./__word/cards__word.css");
+@import url("./__image/cards__image.css");
+@import url("./__news/cards__news.css");
+@import url("./__texts/cards__texts.css");
+
+.cards-item{
+  position: relative;
+  min-height: 576px;
+  border-radius: 16px;
+  background: #FFF;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .cards-item {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cards-item {
+    min-height: 446px;
+  }
+}

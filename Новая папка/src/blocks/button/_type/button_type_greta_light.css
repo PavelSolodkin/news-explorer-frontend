@@ -1,0 +1,31 @@
+.button_type_greta_light{
+  width: 112px;
+  height: 48px;
+  border: 1px solid #FFF;
+  background-color: transparent;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFF;
+  display: none;
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .button_type_greta_light{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .button_type_greta_light{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    display: none;
+  }
+}

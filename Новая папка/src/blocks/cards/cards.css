@@ -1,0 +1,28 @@
+@import url("./__results/cards__results.css");
+@import url("./__items/cards-items.css");
+@import url("../button/_type/button_type_more.css");
+
+.cards{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0;
+  padding: 0 104px 0 104px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .cards{
+    padding-left: calc((100vw - 768px)/671*64 + 40px);
+    padding-right: calc((100vw - 768px)/671*64 + 40px);
+  }
+}
+
+@media (max-width: 767px) {
+  .cards{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

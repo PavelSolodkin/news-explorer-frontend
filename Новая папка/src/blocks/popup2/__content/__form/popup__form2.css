@@ -1,0 +1,13 @@
+@import url(./__input/popup__input2.css);
+@import url(./__text/popup__text2.css);
+@import url(./__error/popup__error2.css);
+@import url(../../../button/_type/button_type_reg.css);
+@import url(./__or/popup__or2.css);
+@import url(./__link/popup__link2.css);
+
+.popup__form2 {
+  min-height: 342px;
+  display: flex;
+  flex-direction: column;
+}
+
