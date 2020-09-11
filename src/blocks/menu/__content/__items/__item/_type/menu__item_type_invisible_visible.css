@@ -1,0 +1,5 @@
+@media (max-width : 767px) {
+    .menu__item_type_invisible_visible{
+        display: flex;
+    }
+}

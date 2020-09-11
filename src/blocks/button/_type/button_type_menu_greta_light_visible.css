@@ -1,0 +1,5 @@
+@media (max-width : 767px) {
+    .button_type_menu_greta_light_visible{
+        display: flex;
+      }
+}

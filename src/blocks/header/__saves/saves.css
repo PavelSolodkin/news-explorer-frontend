@@ -1,5 +1,6 @@
 @import url("./__articles/saves__articles.css");
-@import url("./__number/saves__number.css");
+@import url("./__text/saves__text.css");
+@import url("./__save/saves__save.css");
 @import url("./__words/saves__words.css");
 @import url("./__words/_type/saves__words_type_bold.css");
 

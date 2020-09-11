@@ -1,4 +1,4 @@
-.button_type_login{
+.button_type_enter{
   width: 360px;
   height: 64px;
   margin: 26px 0 16px 0;
@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 767px) {
-  .button_type_login{
+  .button_type_enter{
     width: 288px;
     margin: 26px 0 16px 0;
 

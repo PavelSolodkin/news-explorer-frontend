@@ -6,3 +6,8 @@
 @import url(../blocks/cards/_type/cards_type_margin.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/_type/menu_type_visible.css);
+@import url(../blocks/button/_type/button_type_author_invisible.css);
+@import url(../blocks/menu/__content/__items/__item/_type/menu__item_type_invisible_visible.css);
+@import url(../blocks/button/_type/button_type_menu_greta_light_visible.css);
+@import url(../blocks/cards/__items/__item/__login/_type/cards__login_type_save_type_invisible.css);

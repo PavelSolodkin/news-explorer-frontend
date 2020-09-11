@@ -1,0 +1,9 @@
+@import url("./__number/saves__number.css");
+@import url("./__name/saves__name.css");
+
+.saves__text{
+display: flex;
+flex-direction: row;
+margin: 0;
+padding: 0;
+}

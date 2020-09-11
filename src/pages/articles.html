@@ -19,111 +19,49 @@
         <li class="news__item news__item_type_dark">
           <a class="news__link news__link_type_dark" href="./index.html">Главная</a>
         </li>
-        <li class="news__item news__item_type_under">Сохраненные статьи</li>
+        <li class="news__item news__item_type_under" id="saves">
+          <a class="news__link news__link_type_article_save" href="./articles.html">Сохраненные статьи</a>
+        </li>
       </ul>
-      <button class="button button_type_greta_dark">Грета<img class="button__icon"
-          src="<%=require('../images/BlackLogout.png').default%>" alt="Выход"></button>
-      <button class="button button_type_menu"><img class="button__icon_type_menu"
+      <button class="button button_type_author button_type_author_invisible" id="authorization">Авторизоваться</button>
+      <button class="button button_type_greta_dark" id="greta">
+        <span class="news__name" id="news-name"></span>
+        <img class="button__icon" id="exit" src="<%=require('../images/BlackLogout.png').default%>" alt="Выход">
+      </button>
+      <button class="button button_type_menu" id="openMenu"><img class="button__icon_type_menu"
           src="<%=require('../images/DarkMenu.png').default%>" alt="Меню"></button>
     </div>
     <div class="saves">
-      <p class="saves__articles">Сохранённые статьи</p>
-      <h1 class="saves__number">Грета, у вас 5 сохранённых статей</h1>
-      <h2 class="saves__words">По ключевым словам: <span class="saves__words saves__words_type_bold">Природа, Тайга и 2
-          другим</span></h2>
-    </div>
+      <h2 class=" saves__articles">Сохранённые статьи</h2>
+      <div class="saves__text" id="savestext">
+        <p class="saves__name" id="saves-name"></p>
+      </div>
   </header>
+
   <div class="cards cards_type_margin">
-    <div class="cards-items">
-      <div class="cards-item">
-        <img src="<%=require('../images/Image4.png').default%>" class="cards__image" alt="Картинка статьи" />
-        <div class="cards__texts">
-          <p class="cards__date">2 августа, 2019</p>
-          <div class="cards__main">
-            <p class="cards__title">Национальное достояние – парки</p>
-            <p class="cards__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-              система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-          </div>
-        </div>
-        <address class="cards__news">дзен</address>
-        <p class="cards__word">Природа</p>
-        <button class="cards__icone_type_trash"></button>
-      </div>
-      <div class="cards-item">
-        <img src="<%=require('../images/Image5.png').default%>" class="cards__image" alt="Картинка статьи" />
-        <div class="cards__texts">
-          <p class="cards__date">2 августа, 2019</p>
-          <div class="cards__main">
-            <p class="cards__title">Лесные огоньки: история одной фотографии</p>
-            <p class="cards__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы
-              запечатлеть ускользающую красоту одного из местных чудес природы.</p>
-          </div>
-        </div>
-        <address class="cards__news">Афиша</address>
-        <p class="cards__login">Убрать из сохраненных</p>
-        <p class="cards__word">Природа</p>
-        <button class="cards__icone_type_trash"></button>
-      </div>
-      <div class="cards-item">
-        <img src="<%=require('../images/Image6.png').default%>" class="cards__image" alt="Картинка статьи" />
-        <div class="cards__texts">
-          <p class="cards__date">2 августа, 2019</p>
-          <div class="cards__main">
-            <p class="cards__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</p>
-            <p class="cards__text">Знаменитый фотограф снимает первозданные леса России,чтобы рассказать о
-              необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу,где...</p>
-          </div>
-        </div>
-        <address class="cards__news">Медиазона</address>
-        <p class="cards__word">Тайга</p>
-        <button class="cards__icone_type_trash"></button>
-      </div>
-      <div class="cards-item">
-        <img src="<%=require('../images/Image4.png').default%>" class="cards__image" alt="Картинка статьи" />
-        <div class="cards__texts">
-          <p class="cards__date">2 августа, 2019</p>
-          <div class="cards__main">
-            <p class="cards__title">Национальное достояние – парки</p>
-            <p class="cards__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться
-              система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-          </div>
-        </div>
-        <address class="cards__news">Дзен</address>
-        <p class="cards__word">Парки</p>
-        <button class="cards__icone_type_trash"></button>
-      </div>
-      <div class="cards-item">
-        <img src="<%=require('../images/Image5.png').default%>" class="cards__image" alt="Картинка статьи" />
-        <div class="cards__texts">
-          <p class="cards__date">2 августа, 2019</p>
-          <div class="cards__main">
-            <p class="cards__title">Лесные огоньки: история одной фотографии</p>
-            <p class="cards__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы
-              запечатлеть ускользающую красоту одного из местных чудес природы.</p>
-          </div>
-        </div>
-        <address class="cards__news">Афиша</address>
-        <p class="cards__word">Фотографии</p>
-        <button class="cards__icone_type_trash"></button>
-      </div>
+    <div class="cards-items" id="results">
     </div>
   </div>
 
-  <div class="menu">
+  <div class="menu" id="popup-menu">
     <div class="menu__content">
       <div class="menu__news">
         <p class="menu__copyright">NewsExplorer</p>
-        <img class="menu__close" src="<%=require('../images/Close.png').default%>" alt="Закрыть" />
+        <img class="menu__close" id="close4" src="<%=require('../images/Close.png').default%>" alt="Закрыть" />
       </div>
       <ul class="menu__items">
         <li class="menu__item">
           <a class="menu__link" href="./index.html">Главная</a>
         </li>
-        <li class="menu__item">
-          <a class="menu__link" href="./articles.html">Сохраненные статьи</a>
+        <li class="menu__item menu__item_type_invisible" id="menu-saves">
+          <a class="menu__link menu__link_type_article" href="./articles.html">Сохраненные статьи</a>
         </li>
       </ul>
-      <button class="button button_type_darkauthor">Авторизоваться</button>
+      <button class="button button_type_darkauthor" id="menu-authorization">Авторизоваться</button>
+      <button class="button button_type_menu_greta_light" id="menu-greta">
+        <span class="menu__name" id="menu-name"></span>
+        <img class="button__icon" id="exit" src="<%=require('../images/WhiteLogout.png').default%>" alt="Выход">
+      </button>
     </div>
   </div>
 

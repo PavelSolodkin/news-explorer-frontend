@@ -11,3 +11,16 @@
   color: #FF0000;
 }
 
+.popup__error:nth-of-type(3) {
+  position: absolute;
+  bottom: 138px;
+  left: 188px;
+}
+
+@media (max-width: 767px) {
+  .popup__error:nth-of-type(3) {
+    position: absolute;
+    bottom: 340px;
+    left: 135px;
+   }
+ }

@@ -9,7 +9,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-	-webkit-line-clamp: 4;
+	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;
 }
 
@@ -21,8 +21,3 @@
   }
 }
 
-@media (max-width: 767px) {
-  .cards__title{
-    -webkit-line-clamp: 3;
-  }
-}

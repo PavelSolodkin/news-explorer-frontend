@@ -1,8 +1,7 @@
 .popup__error2{
   width: 200px;
   height: 14px;
-  text-align: center;
-  margin: 17px auto 0;
+  margin: 0;
   padding: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -12,3 +11,16 @@
   color: #FF0000;
 }
 
+.popup__error2:nth-of-type(4) {
+  position: absolute;
+  bottom: 138px;
+  left: 120px;
+ }
+
+ @media (max-width: 767px) {
+  .popup__error2:nth-of-type(4) {
+    position: absolute;
+    bottom: 260px;
+    left: 70px;
+   }
+ }

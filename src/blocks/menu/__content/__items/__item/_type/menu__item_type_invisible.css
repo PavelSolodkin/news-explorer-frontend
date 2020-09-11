@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+  .menu__item_type_invisible{
+    color: #B6BCBF;
+    border-bottom: none;
+    margin: 34px 0 0 0;
+    display: none;
+  }
+}
