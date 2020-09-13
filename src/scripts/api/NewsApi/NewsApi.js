@@ -13,7 +13,7 @@ export default class NewsApi {
   }
 
   getNews(UserKeyWord) {
-    return fetch(`http://nomoreparties.co/news/v2/everything?q=${UserKeyWord}&from=${datacreate}&sortBy=${datanow}&pageSize=100&apiKey=${this.apikey}`, {
+    return fetch(`https://nomoreparties.co/news/v2/everything?q=${UserKeyWord}&from=${datacreate}&sortBy=${datanow}&pageSize=100&apiKey=${this.apikey}`, {
     })
       .then((res) => {
         if (res.ok) {
