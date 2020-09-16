@@ -1,0 +1,11 @@
+@import url("./__results/cards__results.css");
+@import url("./__items/cards-items.css");
+@import url("../button/_type/button_type_more.css");
+
+.cards{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}

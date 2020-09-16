@@ -1,0 +1,34 @@
+.button_type_enter_active{
+    width: 360px;
+    height: 64px;
+    margin: 26px 0 16px 0;
+    padding: 0;
+    background: #2F71E5;
+    border-radius: 100px;
+    border: 1px solid #2F71E5;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+  }
+
+  .button_type_enter_active:hover {
+    background-color: #347EFF;
+  }
+
+  .button_type_enter_active:active {
+    background-color: #2A65CC;
+  }
+
+  @media (max-width: 767px) {
+    .button_type_enter_active{
+      width: 288px;
+      margin: 26px 0 16px 0;
+
+    }
+  }

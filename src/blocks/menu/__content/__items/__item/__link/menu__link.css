@@ -1,0 +1,7 @@
+@media (max-width: 767px) {
+  .menu__link{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+}

@@ -1,0 +1,26 @@
+.popup__error{
+  width: 200px;
+  height: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FF0000;
+}
+
+.popup__error:nth-of-type(3) {
+  position: absolute;
+  bottom: 138px;
+  left: 188px;
+}
+
+@media (max-width: 767px) {
+  .popup__error:nth-of-type(3) {
+    position: absolute;
+    bottom: 340px;
+    left: 135px;
+   }
+ }

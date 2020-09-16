@@ -1,0 +1,29 @@
+.cards__results{
+  width: 712px;
+  margin: 80px 0 64px 0;
+  padding-left: 104px;
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  color: #1A1B22;
+}
+
+@media (min-width : 768px) and (max-width : 1439px) {
+  .cards__results{
+    max-width: 712px;
+    margin: 40px 0 32px 0;
+    padding-left: calc((100vw - 768px)/671*64 + 40px);
+    font-size: calc((100vw - 768px)/671*10 + 30px);
+    line-height: calc((100vw - 768px)/671*12 + 34px);
+  }
+}
+
+@media (max-width: 767px) {
+  .cards__results{
+    width: 288px;
+    margin: 32px 0 24px 0;
+    padding-left: calc((100vw - 320px)/447*24 + 16px);
+  }
+}

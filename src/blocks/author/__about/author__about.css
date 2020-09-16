@@ -1,0 +1,15 @@
+@import url("./__info/author__info.css");
+@import url("./__photo/author__photo.css");
+
+.author__about{
+  display: grid;
+  grid-template-columns: 38.5% 56.5%;
+  column-gap: 5%;
+}
+
+@media (max-width: 767px) {
+  .author__about{
+    display: flex;
+    flex-direction: column;
+  }
+}

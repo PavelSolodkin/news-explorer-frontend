@@ -1,0 +1,19 @@
+.button_type_menu_greta_light{
+  width: 288px;
+  height: 56px;
+  margin: 0 auto 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FFF;
+  background-color: transparent;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  display: none;
+}

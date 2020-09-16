@@ -1,0 +1,21 @@
+@import url(./__close/popup__close.css);
+@import url(./__form/popup__form.css);
+@import url(./__title/popup__title.css);
+
+.popup__content {
+  width: 430px;
+  height: 380px;
+  padding: 34px 36px 28px 34px;
+  position: relative;
+  background-color: #FFF;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .popup__content{
+    width: 320px;
+    height: 560px;
+    padding: 16px;
+  }
+}

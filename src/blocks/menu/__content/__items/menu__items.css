@@ -1,0 +1,13 @@
+@import url("./__item/menu__item.css");
+@import url("./__item/_type/menu__item_type_invisible.css");
+
+@media (max-width: 767px) {
+  .menu__items{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    margin: 32px 0 36px 0;
+    color: white;
+  }
+}
