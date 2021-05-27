@@ -27,3 +27,6 @@ JavaScript(ES6+), HTML5, CSS3, API, GIT, Webpack, JSON;
 3. Запустить необходимую сборку:
 - npm run build - создает сборку Production
 - npm run dev - создает сборку Development, запускает сервер, и открывает проект в браузере с hot обновлением
+
+### Ссылка
+https://pavelsolodkin.github.io/news-explorer-frontend/
